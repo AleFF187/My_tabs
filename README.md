@@ -1,7 +1,7 @@
 # My_tabs
 реализация табов на divах
 
-***** HTML *****
+// ***** HTML *****
   <div class="tab__wrapper">
   
     <div class="tab__buttons_wrapper">
@@ -25,10 +25,10 @@
     </div>
     
   </div>
-***** HTML *****
+// ***** HTML *****
 
 
-***** CSS *****
+// ***** CSS *****
 *{
   box-sizing: border-box;
 }
@@ -88,9 +88,9 @@ p{
 .tab__content_active{
   display: block;
 }
-***** CSS *****
+// ***** CSS *****
   
-***** JS *****
+// ***** JS *****
 // получаем все кнопки
 const tabButtons = document.querySelectorAll('.tab__button');
 // получаем активную кнопку
@@ -110,4 +110,4 @@ for (let i = 0; i < tabButtons.length; i++) {
     tabContentActive = tabContents[i];
   };
 }
-***** JS *****
+// ***** JS *****
